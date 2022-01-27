@@ -1,3 +1,25 @@
-body{
+div{
+    text-align: center;
+}
+
+b{
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    background-color: salmon;
+}
+
+h2{
+    text-align: center;
+    background-color: salmon;
+}
+
+body ~ h1{
+    text-align: center;
+}
+
+body ~ h2{
     text-align: center;
 }
