@@ -6,10 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mes Passions</title>
     <link rel="stylesheet" href="./styles/maPage.css">
+    <script async src="./scripts/maPage.js"></script>
 </head>
 <body style="background-color: lightgrey;">
+    <div class="header">
+        <nav>
+            <ul class="menu">
+                <a href="maPage.html">Accueil</a>
+                <a href="calculatrice.html">Calculatrice</a>
+                <a href="4image.html">Images</a>
+            </ul>
+        </nav>
+    </div>
     <center>
-
         <p>Bienvenue sur ma page où je vais te présenter mon CV et mes passions ! </p>
         
         <h1>Mon CV</h1>
@@ -18,6 +27,10 @@
         <h1>Mes Passions</h1>    
             <a href="pages/Passions.html">Tu peux retrouver ici mes passions</a>
     </center>
+    <button onclick="cliqueBouton()"> Cliquer ICI</button>
+    <label> Prénom :
+        <input type="text" id="prenom">
+    </label>
 
 </body>
 </html>
